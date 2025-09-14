@@ -1,0 +1,97 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #4f46e5;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .myInput input {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .myTextarea select {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .mySelect select {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .radioGroup {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .primaryButton {
+    background-color: #4f46e5;
+    color: white;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s; 
+  }
+  
+  .primaryButton:hover {
+    background-color: #4338ca;
+  }
+  
+  .disabledButton {
+    background-color: #e5e7eb;
+    color: #6b7280;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: not-allowed;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .list {
+    padding-left: 1.2rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
